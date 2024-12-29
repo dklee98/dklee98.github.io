@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Dongkyu Lee
-title: Ph.D. Candidate
+title: Ph.D. Candidate at Korea Advanced Institute of Science and Technology (KAIST)
 email: dklee@kaist.ac.kr
 # email_title: Email (Email title override)
 phone: +82) 10-7642-9842
@@ -26,7 +26,7 @@ github_username:  dklee98
 # facebook_username: jekyll
 # flickr_username: jekyll
 instagram_username: moving_kyu9
-linkedin_username: dongkyu-lee
+linkedin_username: dongkyu-danial-lee
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
@@ -50,7 +50,7 @@ googlescholar_username: dongkyu lee
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/dongkyu_profile.jpg
+about_profile_image: images/dongkyu_profile_zoom.jpg
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
