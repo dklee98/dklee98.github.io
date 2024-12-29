@@ -10,7 +10,7 @@ name: Dongkyu Lee
 title: Ph.D. Candidate at Korea Advanced Institute of Science and Technology (KAIST)
 email: dklee@kaist.ac.kr
 # email_title: Email (Email title override)
-phone: +82) 10-7642-9842
+# phone: +82) 10-7642-9842
 # phone_title: Phone (Phone title override)
 # website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
@@ -53,23 +53,23 @@ googlescholar_username: dongkyu lee
 about_profile_image: images/dongkyu_profile_zoom.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am a Ph.D. candidate in the [Department of Electrical Engineering](https://ee.kaist.ac.kr/) at [KAIST](https://kaist.ac.kr/kr/), and a member of the [Urban Robotics Lab](https://urobot.kaist.ac.kr) led by Prof. [Hyun Myung](https://urobot.kaist.ac.kr/url_teams/prof-hyunmyung/).
-  My current research interests lie in autonomous navigation for mobile robots, focusing on developing motion and path planning, decision-making, and the interplay between SLAM and navigation algorithms for high-level, long-term field robotics applications.
+  My current research interests lie in autonomous navigation for mobile robots, focusing on developing motion and path planning, decision-making, and the interplay between SLAM and navigation algorithms for long-term field robotics applications.
 
 
-  # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+# Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  # You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-  #   - Lists
-  #   - Tables
-  #   - <a href="google.com">Links</a>
-  #   - Images ![alt text](/images/landscape-trees.jpg "Trees")
+# You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#   - Lists
+#   - Tables
+#   - <a href="google.com">Links</a>
+#   - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Education
     layout: list
     content:
       - layout: top-middle
-        title: Ph.D. (ongoing)
+        title: Ph.D.
         sub_title: Department of Electrical Engineering
         caption: Korea Advanced Institute of Science and Technology (KAIST), South Korea
         quote: Sep. 2023 - present
