@@ -198,7 +198,7 @@ content:
 
       - layout: left
         title: |
-            <img src="images/dreamtrip.jpg" width="240" margin-bottom="300%"> <br>
+            <img src="images/dreamtrip.png" width="240" margin-bottom="300%"> <br>
         link: https://quadruped-robot-challenges.notion.site/ICRA-2024-Quadruped-Robot-Challenges-d208b535269d4a79b2893a84c1d4b2df
         link_text: "Competition Website"
         description: | 
