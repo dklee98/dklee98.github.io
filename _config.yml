@@ -91,7 +91,7 @@ content:
     content:
       - layout: left
         title: |
-            <img src="images/kaist.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/kaist.png" width="260px" margin-bottom="300%"> <br>
         description: | # this will include new lines to allow paragraphs
           **Research Intern**
 
@@ -111,7 +111,7 @@ content:
 
       - layout: left
         title: | # software maestro
-            <img src="images/swm.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/swm.png" width="220px" margin-bottom="300%"> <br>
         description: | # this will include new lines to allow paragraphs
           **Research Intern**
 
@@ -124,7 +124,7 @@ content:
     content:
       - layout: left
         title: |
-            <img src="images/trg.pdf" width="240px" margin-bottom="300%"> <br>
+            <img src="images/trg.png" width="240px" margin-bottom="300%"> <br>
         description: | # this will include new lines to allow paragraphs
           ***TRG-Planner: Traversal Risk Graph-Based Path Planning in Unstructured Environments for Safe and Efficient Navigation***
 
@@ -183,22 +183,27 @@ content:
       - layout: left
         title: |
             <img src="images/dreamstep.jpg" width="240" margin-bottom="300%"> <br>
-        sub_title: Winner
-        caption: Team DreamStep of KAIST
+        # sub_title: Winner
+        # caption: Team DreamStep of KAIST
         link: https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges
         description: | 
                       ***Autonomous Quadrupedal Robot Challenge in ICRA 2023, London***
+
+                      **Winner**
+
+                      Team DreamStep of KAIST
 
                       Role: Safe path planning using TRG-planner
 
       - layout: left
         title: |
             <img src="images/kroc_2024.png" width="240" margin-bottom="300%"> <br>
-        sub_title: Best Work Award
-        # caption: Team QAIST++ of KAIST
+        # sub_title: Best Work Award
         link: https://urobot.kaist.ac.kr/announcement/?uid=517&mod=document&pageid=1
         description: |
                     ***KROC 2024 RED Show***
+
+                    **Best Work Award**
 
                     Development of various gait pattern locomotion for quadruped robots using deep reinforcement learning
   
