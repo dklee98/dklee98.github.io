@@ -1,6 +1,6 @@
 # Site
 repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: images/favicon.ico # Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
@@ -50,10 +50,10 @@ googlescholar_username: dongkyu lee
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/dongkyu_profile_zoom.jpg
+about_profile_image: images/dongkyu_profile_zoomzoom.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am a Ph.D. candidate in the [Department of Electrical Engineering](https://ee.kaist.ac.kr/) at [KAIST](https://kaist.ac.kr/kr/), and a member of the [Urban Robotics Lab](https://urobot.kaist.ac.kr) led by Prof. [Hyun Myung](https://urobot.kaist.ac.kr/url_teams/prof-hyunmyung/).
-  My current research interests lie in autonomous navigation for mobile robots, focusing on developing motion and path planning, decision-making, and the interplay between SLAM and navigation algorithms for long-term field robotics applications.
+  My current research interests lie in autonomous navigation for legged robots, focusing on developing motion and path planning, decision-making, and the interplay between SLAM and navigation algorithms for long-term field robotics applications.
 
 
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
@@ -83,47 +83,148 @@ content:
       - layout: top-middle
         title: B.S.
         sub_title: School of Electrical and Computer Engineering
-        caption: University of Seoul, South Korea
+        caption: University of Seoul (UOS), South Korea
         quote: Mar. 2016 - Aug. 2021
-        
-  # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       border: weak  # Value of `weak` will display a weak border below this item. # Any 
-  #                     # other value (or no value) means no border will be displayed
-  #       title: Project name
-  #       link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  #       link_text: Link Text
-  #       additional_links:
-  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #           icon: fab fa-github
-  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #           icon: fab fa-github
-  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  #       quote: >
-  #         Short overview of the project (optional)
-  #       description: | # this will include new lines to allow paragraphs
-  #         Description about the work on/with the project
-  # - title: Experience
-  #   layout: list
-  #   content:
-  #     - layout: right
-  #       title: Company name
-  #       sub_title: Job title
-  #       caption: Date Range (eg. November 2016 - present)
-  #       link: Link to company (optional)
-  #       quote: >
-  #         Short description of the company (optional)
-  #       description: | # this will include new lines to allow paragraphs
-  #         Description of role
-  - title: A Little More About Me
+
+  - title: Research Experience
+    layout: list
+    content:
+      - layout: left
+        title: |
+            <img src="images/kaist.png" width="240px" margin-bottom="300%"> <br>
+        description: | # this will include new lines to allow paragraphs
+          **Research Intern**
+
+          *Urban Robotics Lab, KAIST*, South Korea
+
+          Feb.2021 - Aug.2021
+  
+      - layout: left
+        title: |
+            <img src="images/etri.png" width="240px" margin-bottom="300%"> <br>
+        description: | # this will include new lines to allow paragraphs
+          **Research Intern**
+
+          *Artificial Intelligence Research Team, Electronics and Telecommunications Research Institute (ETRI)*, South Korea
+
+          Jan.2021 - Feb.2021
+
+      - layout: left
+        title: | # software maestro
+            <img src="images/swm.png" width="240px" margin-bottom="300%"> <br>
+        description: | # this will include new lines to allow paragraphs
+          **Research Intern**
+
+          *Software Maestro 11th, Ministry of Science and ICT (MSIT)*, South Korea
+
+          Jun.2020 - Dec.2020
+
+  - title: Research Highlights
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: |
+            <img src="images/trg.png" width="240px" margin-bottom="300%"> <br>
+        description: | # this will include new lines to allow paragraphs
+          ***TRG-Planner: Traversal Risk Graph-Based Path Planning in Unstructured Environments for Safe and Efficient Navigation***
+
+          **Dongkyu Lee**, I Made Aswin Nahrendra, Minho Oh, Byeongho Yu, and Hyun Myung
+
+          IEEE Robotics and Automation Letters **(RA-L), 2025**
+
+          <a href="https://arxiv.org/abs/2501.01806">Paper</a>  <a href="https://trg-planner.github.io/">Project</a>
+  
+  - title: Selected Publications
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: |
+            <img src="images/dreamflex.png" width="240px" margin-bottom="300%"> <br>
+                  
+        description: |
+                    ***DreamFLEX: Learning Fault-Aware Quadrupedal Locomotion Controller for Anomaly Situation in Rough Terrains***
+
+                    Seunghyun Lee, I Made Aswin Nahrendra, **Dongkyu Lee**, Byeongho Yu, Minho Oh, and Hyun Myung
+
+                    IEEE International Conference on Robotics and Automation **(ICRA), 2025**
+
+                    <a href="https://dreamflex.github.io">Project</a>
+
+      - layout: left
+        title: |
+            <img src="images/dreamwaqpp.png" width="240px" margin-bottom="300%"> <br>
+                  
+        description: |
+                    ***DreamWaQ++: Obstacle-aware Quadrupedal Locomotion with Resilient Multi-modal Reinforcement Learning***
+
+                    I Made Aswin Nahrendra, Byeongho Yu, Minho Oh, **Dongkyu Lee**, Seunghyun Lee, Hyeonwoo Lee, Hyungtae Lim, and Hyun Myung
+
+                    **under review**
+
+                    <a href="https://arxiv.org/pdf/2409.19709">Paper</a>  <a href="https://dreamwaqpp.github.io">Project</a>
+      
+      - layout: left
+        title: |
+            <img src="images/trip.png" width="240px" margin-bottom="300%"> <br>
+                  
+        description: |
+                    ***TRIP: Terrain Traversability Mapping With Risk-Aware Prediction for Enhanced Online Quadrupedal Robot Navigation***
+
+                    Minho Oh, Byeongho Yu, I Nahrendra, Seoyeon Jang, Hyeonwoo Lee, **Dongkyu Lee**, Seungjae Lee, Yeeun Kim, Marsim Kevin Christiansen, Hyungtae Lim, Hyun Myung
+
+                    **under review**
+
+                    <a href="https://arxiv.org/abs/2411.17134">Paper</a>
+                  
+  - title: Awards
+    layout: list
+    content: 
+
+      - layout: left
+        title: |
+            <img src="images/dreamstep.jpg" width="240" margin-bottom="300%"> <br>
+        sub_title: Winner
+        caption: Team DreamStep of KAIST
+        link: https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges
+        description: | 
+                      ***Autonomous Quadrupedal Robot Challenge in ICRA 2023, London***
+
+                      Role: Safe path planning using TRG-planner
+
+      - layout: left
+        title: |
+            <img src="images/kroc_2024.png" width="240" margin-bottom="300%"> <br>
+        sub_title: Best Work Award
+        # caption: Team QAIST++ of KAIST
+        link: https://urobot.kaist.ac.kr/announcement/?uid=517&mod=document&pageid=1
+        description: |
+                    ***KROC 2024 RED Show***
+
+                    Development of various gait pattern locomotion for quadruped robots using deep reinforcement learning
+  
+  - title: Other Publications
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      - <a>*B-TMS:\ Bayesian Traversable Terrain Modeling and Segmentation Across 3D LiDAR Scans and Maps for Enhanced Off-Road Navigation*</a>
+      
+        Minho Oh, Gunhee Shin, Seoyeon Jang, Seungjae Lee, **Dongkyu Lee**, Wonho Song, Byeongho Yu, Hyungtae Lim, Jaeyoung Lee, Hyun Myung
+         
+        IEEE Intelligent Vehicles Symposium **(IV), 2024**
+
+
+      - <a>*M-BRIC:\ design of mass-driven bi-rotor with RL-based intelligent controller*</a>
+      
+      - <a>*FARO-Tracker:\ Fast and robust target tracking system for UAVs in urban environment*</a>
+
+      - <a>*Ceo-mlcpp:\ Control-efficient and obstacle-aware multi-layer coverage path planner for 3d reconstruction with uavs*</a>
+
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
