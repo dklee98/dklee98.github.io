@@ -45,8 +45,8 @@ googlescholar_username: dongkyu lee
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-google_analytics: "G-XHWSKHVRP0"
+gtag: "G-5TL6SCMY6F"
+# google_analytics: "G-XHWSKHVRP0"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
