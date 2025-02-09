@@ -194,7 +194,7 @@ content:
 
                       **Team DreamSTEP of KAIST**
 
-                      Role: Safe global path planning using TRG-planner
+                      Role: Safe path planning using TRG-planner
 
       - layout: left
         title: |
@@ -208,7 +208,7 @@ content:
 
                       **Team DreamTRIP of KAIST**
 
-                      Role: Safe global & local path planning using TRG-planner
+                      Role: Safe path planning using TRG-planner
 
       - layout: left
         title: |
