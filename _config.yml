@@ -185,7 +185,8 @@ content:
             <img src="images/dreamstep.jpg" width="240" margin-bottom="300%"> <br>
         # sub_title: Winner
         # caption: Team DreamStep of KAIST
-        link: <a href="https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges-0d1513db048e40e1bbe6dd4ba5b78cdc">Competition Link</a>
+        link: https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges-0d1513db048e40e1bbe6dd4ba5b78cdc
+        link_text: "Competition Website"
         description: | 
                       ***Autonomous Quadrupedal Robot Challenge in ICRA 2023, London, UK***
 
@@ -198,7 +199,8 @@ content:
       - layout: left
         title: |
             <img src="images/dreamtrip.jpg" width="240" margin-bottom="300%"> <br>
-        link: <a href="https://quadruped-robot-challenges.notion.site/ICRA-2024-Quadruped-Robot-Challenges-d208b535269d4a79b2893a84c1d4b2df">Competition Link</a>
+        link: https://quadruped-robot-challenges.notion.site/ICRA-2024-Quadruped-Robot-Challenges-d208b535269d4a79b2893a84c1d4b2df
+        link_text: "Competition Website"
         description: | 
                       ***Autonomous Quadrupedal Robot Challenge in ICRA 2024, Yokohama, Japan***
 
@@ -212,7 +214,8 @@ content:
         title: |
             <img src="images/kroc_2024.png" width="240" margin-bottom="300%"> <br>
         # sub_title: Best Work Award
-        link: <a href="https://urobot.kaist.ac.kr/announcement/?uid=517&mod=document&pageid=1">Link</a>
+        link: https://urobot.kaist.ac.kr/announcement/?uid=517&mod=document&pageid=1
+        link_text: "Link"
         description: |
                     ***KROC 2024 RED Show***
 
