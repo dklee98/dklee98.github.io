@@ -50,7 +50,7 @@ googlescholar_username: dongkyu lee
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/dongkyu_profile_zoomzoom.jpg
+about_profile_image: images/dongkyu_profile_zoomzoom.png
 about_content: | # this will include new lines to allow paragraphs
   I am a Ph.D. candidate in the [Department of Electrical Engineering](https://ee.kaist.ac.kr/) at [KAIST](https://kaist.ac.kr/kr/), and a member of the [Urban Robotics Lab](https://urobot.kaist.ac.kr) led by Prof. [Hyun Myung](https://urobot.kaist.ac.kr/url_teams/prof-hyunmyung/).
   My current research interests lie in autonomous navigation for legged robots, focusing on developing motion and path planning, decision-making, and the interplay between SLAM and navigation algorithms for long-term field robotics applications.
@@ -124,7 +124,7 @@ content:
     content:
       - layout: left
         title: |
-            <img src="images/trg.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/trg.pdf" width="240px" margin-bottom="300%"> <br>
         description: | # this will include new lines to allow paragraphs
           ***TRG-Planner: Traversal Risk Graph-Based Path Planning in Unstructured Environments for Safe and Efficient Navigation***
 
@@ -206,18 +206,35 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
-      - <a>*B-TMS:\ Bayesian Traversable Terrain Modeling and Segmentation Across 3D LiDAR Scans and Maps for Enhanced Off-Road Navigation*</a>
+      - <a href="https://ieeexplore.ieee.org/abstract/document/10588810">
+        *B-TMS: Bayesian Traversable Terrain Modeling and Segmentation Across 3D LiDAR Scans and Maps for Enhanced Off-Road Navigation*</a>
       
         Minho Oh, Gunhee Shin, Seoyeon Jang, Seungjae Lee, **Dongkyu Lee**, Wonho Song, Byeongho Yu, Hyungtae Lim, Jaeyoung Lee, Hyun Myung
          
         IEEE Intelligent Vehicles Symposium **(IV), 2024**
 
 
-      - <a>*M-BRIC:\ design of mass-driven bi-rotor with RL-based intelligent controller*</a>
-      
-      - <a>*FARO-Tracker:\ Fast and robust target tracking system for UAVs in urban environment*</a>
+      - <a href="https://ieeexplore.ieee.org/abstract/document/9826246">
+        *M-BRIC: design of mass-driven bi-rotor with RL-based intelligent controller*</a>
 
-      - <a>*Ceo-mlcpp:\ Control-efficient and obstacle-aware multi-layer coverage path planner for 3d reconstruction with uavs*</a>
+        **Dongkyu Lee**, EungChang Mason Lee, Duckyu Choi, Junho Choi, Christian Tirtawardhana, Hyun Myung
+
+        International Conference on Ubiquitous Robots **(UR), 2022**
+      
+      - <a href="https://link.springer.com/chapter/10.1007/978-3-031-26889-2_20">
+        *FARO-Tracker: Fast and robust target tracking system for UAVs in urban environment*</a>
+
+        **Dongkyu Lee**, EungChang Mason Lee, Hyungtae Lim, Seungwon Song, Hyun Myung
+
+        International Conference on Robot Intelligence Technology and Applications **(RiTA), 2022**
+
+      - <a href="https://link.springer.com/chapter/10.1007/978-3-031-26889-2_3">
+        *Ceo-mlcpp: Control-efficient and obstacle-aware multi-layer coverage path planner for 3d reconstruction with uavs*</a>
+
+        Eungchang Mason Lee, Sungwook Jung, Seungwon Song, Duckyu Choi, **Dongkyu Lee**, Seunghyun Lee, Seoktae Kim, Hyun Myung
+
+        International Conference on Robot Intelligence Technology and Applications **(RiTA), 2022**
+
 
   # - title: A Little More About Me
   #   layout: text
