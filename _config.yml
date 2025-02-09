@@ -91,7 +91,7 @@ content:
     content:
       - layout: left
         title: |
-            <img src="images/kaist.png" width="260px" margin-bottom="300%"> <br>
+            <img src="images/kaist.png" width="240px" margin-bottom="300%"> <br>
         description: | # this will include new lines to allow paragraphs
           **Research Intern**
 
@@ -111,7 +111,7 @@ content:
 
       - layout: left
         title: | # software maestro
-            <img src="images/swm.png" width="220px" margin-bottom="300%"> <br>
+            <img src="images/swm.png" width="240px" margin-bottom="300%"> <br>
         description: | # this will include new lines to allow paragraphs
           **Research Intern**
 
@@ -134,9 +134,9 @@ content:
 
           <a href="https://arxiv.org/abs/2501.01806">Paper</a>  <a href="https://trg-planner.github.io/">Project</a>
   
-  - title: Selected Publications
-    layout: list # Type of content section (list/text)
-    content:
+  # - title: Selected Publications
+  #   layout: list # Type of content section (list/text)
+  #   content:
       - layout: left
         title: |
             <img src="images/dreamflex.png" width="240px" margin-bottom="300%"> <br>
