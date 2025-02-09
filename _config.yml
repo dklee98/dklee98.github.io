@@ -92,7 +92,7 @@ content:
       - layout: left
         title: |
             <img src="images/kaist.png" width="240px" margin-bottom="300%"> <br>
-        description: | # this will include new lines to allow paragraphs
+        description: | 
           **Research Intern**
 
           *Urban Robotics Lab, KAIST*, South Korea
@@ -110,7 +110,7 @@ content:
           Jan.2021 - Feb.2021
 
       - layout: left
-        title: | # software maestro
+        title: |
             <img src="images/swm.png" width="240px" margin-bottom="300%"> <br>
         description: | # this will include new lines to allow paragraphs
           **Research Intern**
