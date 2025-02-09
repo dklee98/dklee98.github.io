@@ -185,21 +185,34 @@ content:
             <img src="images/dreamstep.jpg" width="240" margin-bottom="300%"> <br>
         # sub_title: Winner
         # caption: Team DreamStep of KAIST
-        link: https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges
+        link: <a href="https://quadruped-robot-challenges.notion.site/ICRA-2023-Quadruped-Robot-Challenges-0d1513db048e40e1bbe6dd4ba5b78cdc">Competition Link</a>
         description: | 
-                      ***Autonomous Quadrupedal Robot Challenge in ICRA 2023, London***
+                      ***Autonomous Quadrupedal Robot Challenge in ICRA 2023, London, UK***
 
-                      **Winner**
+                      **Winner (1st Place)**
 
-                      Team DreamStep of KAIST
+                      **Team DreamSTEP of KAIST**
 
-                      Role: Safe path planning using TRG-planner
+                      Role: Safe global path planning using TRG-planner
+
+      - layout: left
+        title: |
+            <img src="images/dreamtrip.jpg" width="240" margin-bottom="300%"> <br>
+        link: <a href="https://quadruped-robot-challenges.notion.site/ICRA-2024-Quadruped-Robot-Challenges-d208b535269d4a79b2893a84c1d4b2df">Competition Link</a>
+        description: | 
+                      ***Autonomous Quadrupedal Robot Challenge in ICRA 2024, Yokohama, Japan***
+
+                      **2nd Place**
+
+                      **Team DreamTRIP of KAIST**
+
+                      Role: Safe global & local path planning using TRG-planner
 
       - layout: left
         title: |
             <img src="images/kroc_2024.png" width="240" margin-bottom="300%"> <br>
         # sub_title: Best Work Award
-        link: https://urobot.kaist.ac.kr/announcement/?uid=517&mod=document&pageid=1
+        link: <a href="https://urobot.kaist.ac.kr/announcement/?uid=517&mod=document&pageid=1">Link</a>
         description: |
                     ***KROC 2024 RED Show***
 
