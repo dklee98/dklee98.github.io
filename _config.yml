@@ -7,8 +7,10 @@ version: 2
 
 # Personal info
 name: Dongkyu Lee
-title: Ph.D. Candidate at Korea Advanced Institute of Science and Technology (KAIST)
-email: dklee [at] kaist [dot] ac [dot] kr
+title: CTO | Co-Founder at URobotics Corp. | Ph.D. Candidate at KAIST
+# title: Ph.D. Candidate at Korea Advanced Institute of Science and Technology (KAIST)
+email: dklee [at] urobotics [dot] ai
+# email: dklee [at] kaist [dot] ac [dot] kr
 # email_title: Email (Email title override)
 # phone: +82) 10-7642-9842
 # phone_title: Phone (Phone title override)
@@ -25,7 +27,7 @@ github_username:  dklee98
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: moving_kyu9
+# instagram_username: moving_kyu9
 linkedin_username: dongkyu-danial-lee
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -53,7 +55,9 @@ google_analytics_4: "G-5TL6SCMY6F"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/dongkyu_profile_zoomzoom.png
 about_content: | # this will include new lines to allow paragraphs
-  I am a Ph.D. candidate in the [Department of Electrical Engineering](https://ee.kaist.ac.kr/) at [KAIST](https://kaist.ac.kr/kr/), and a member of the [Urban Robotics Lab](https://urobot.kaist.ac.kr) led by Prof. [Hyun Myung](https://urobot.kaist.ac.kr/url_teams/prof-hyunmyung/).
+  I am CTO and Co-Founder at [URobotics Corp.](https://urobotics.ai), a startup that develops autonomous navigation software for legged robots.
+  We have a vision that robots will move autonomously in every environment, and we are making it come true.
+  I am also a Ph.D. candidate in the [Department of Electrical Engineering](https://ee.kaist.ac.kr/) at [KAIST](https://kaist.ac.kr/kr/), and a member of the [Urban Robotics Lab](https://urobot.kaist.ac.kr) led by Prof. [Hyun Myung](https://urobot.kaist.ac.kr/url_teams/prof-hyunmyung/).
   My current research interests lie in autonomous navigation for legged robots, focusing on developing motion and path planning, decision-making, and the interplay between SLAM and navigation algorithms for long-term field robotics applications.
 
 
@@ -90,6 +94,17 @@ content:
   - title: Research Experience
     layout: list
     content:
+
+      - layout: left
+        title: |
+            <img src="images/urobotics.png" width="240px" margin-bottom="300%"> <br>
+        description: | 
+          **CTO and Co-Founder**
+
+          *URobotics Corp.*, South Korea
+
+          Apr.2025 - Present
+
       - layout: left
         title: |
             <img src="images/kaist.png" width="240px" margin-bottom="300%"> <br>
