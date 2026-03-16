@@ -218,12 +218,16 @@ const navItems = [
     const html = document.documentElement;
 
     function applyTheme(dark: boolean) {
+      const moon = document.getElementById('icon-moon');
+      const sun = document.getElementById('icon-sun');
       if (dark) {
         html.classList.add('dark');
-        if (themeIcon) themeIcon.textContent = '☀️';
+        moon?.classList.add('hidden');
+        sun?.classList.remove('hidden');
       } else {
         html.classList.remove('dark');
-        if (themeIcon) themeIcon.textContent = '🌙';
+        moon?.classList.remove('hidden');
+        sun?.classList.add('hidden');
       }
     }
 
