@@ -39,7 +39,8 @@ const navItems = [
         <a href="#about" class="text-lg font-semibold text-gray-900 hover:text-blue-700 transition-colors">
           Dongkyu Lee
         </a>
-        <ul class="flex items-center gap-6">
+        <!-- Desktop nav links -->
+        <ul class="hidden md:flex items-center gap-6">
           {navItems.map((item) => (
             <li>
               <a
@@ -51,7 +52,34 @@ const navItems = [
             </li>
           ))}
         </ul>
+        <!-- Hamburger button (mobile only) -->
+        <button
+          id="menu-toggle"
+          class="md:hidden flex items-center justify-center w-9 h-9 rounded text-gray-600 hover:text-blue-700 hover:bg-gray-100 transition-colors"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span id="hamburger-icon" class="text-xl leading-none select-none">☰</span>
+        </button>
       </nav>
+      <!-- Mobile dropdown menu -->
+      <div
+        id="mobile-menu"
+        class="md:hidden hidden border-t border-gray-100 bg-white"
+      >
+        <ul class="max-w-4xl mx-auto px-6 py-3 flex flex-col gap-1">
+          {navItems.map((item) => (
+            <li>
+              <a
+                href={item.href}
+                class="mobile-nav-link block py-2 px-2 text-sm font-medium text-gray-600 rounded hover:text-blue-700 hover:bg-gray-50 transition-colors"
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
     </header>
 
     <!-- Main Content -->
@@ -66,6 +94,7 @@ const navItems = [
       </div>
     </footer>
   <script>
+    // Smooth scroll for all anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function(e) {
         const href = this.getAttribute('href');
@@ -77,6 +106,41 @@ const navItems = [
         const top = target.getBoundingClientRect().top + window.scrollY - navHeight - 8;
         window.scrollTo({ top, behavior: 'smooth' });
       });
+    });
+
+    // Mobile menu toggle
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const hamburgerIcon = document.getElementById('hamburger-icon');
+
+    function openMenu() {
+      mobileMenu?.classList.remove('hidden');
+      menuToggle?.setAttribute('aria-expanded', 'true');
+      if (hamburgerIcon) hamburgerIcon.textContent = '✕';
+    }
+
+    function closeMenu() {
+      mobileMenu?.classList.add('hidden');
+      menuToggle?.setAttribute('aria-expanded', 'false');
+      if (hamburgerIcon) hamburgerIcon.textContent = '☰';
+    }
+
+    menuToggle?.addEventListener('click', () => {
+      const isOpen = menuToggle.getAttribute('aria-expanded') === 'true';
+      isOpen ? closeMenu() : openMenu();
+    });
+
+    // Close menu when a mobile nav link is clicked
+    document.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.addEventListener('click', () => closeMenu());
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      const header = document.querySelector('header');
+      if (header && !header.contains(e.target as Node)) {
+        closeMenu();
+      }
     });
   </script>
   </body>
