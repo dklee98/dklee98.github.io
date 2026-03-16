@@ -30,6 +30,16 @@ const navItems = [
     <style>
       html { scroll-behavior: smooth; }
       section[id] { scroll-margin-top: 72px; }
+      /* Link underline style */
+      a.link {
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        text-decoration-color: rgba(26,58,107,0.35);
+        transition: text-decoration-color 0.2s;
+      }
+      a.link:hover {
+        text-decoration-color: rgba(26,58,107,0.9);
+      }
       a { text-decoration: none; }
       .hover-underline {
         position: relative;
