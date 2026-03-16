@@ -181,7 +181,7 @@ content:
 
       - layout: left
         title: |
-            <img src="images/trg.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/dreamflow.png" width="240px" margin-bottom="300%"> <br>
 
         description: |
                     ***DreamFlow: Local Navigation Beyond Observation via Conditional Flow Matching in the Latent Space***
@@ -194,7 +194,7 @@ content:
 
       - layout: left
         title: |
-            <img src="images/dreamflex.png" width="240px" margin-bottom="300%"> <br>
+            <img src="images/humanoids.png" width="240px" margin-bottom="300%"> <br>
 
         description: |
                     ***Learning Resilent Blind Locomotion Controller for Humanoid Robots using Deep Reinforcement Learning***
