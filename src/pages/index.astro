@@ -223,7 +223,7 @@ import Layout from '../layouts/Layout.astro';
 
       <!-- Humanoids Workshop -->
       <div class="flex gap-4 items-start">
-        <img src="/images/humanoids.png" alt="Humanoids Workshop" class="w-36 h-24 object-cover rounded border border-gray-200 flex-shrink-0 bg-gray-50" onerror="this.onerror=null;this.style.display='none';" />
+        <img src="/images/humanoids.png" alt="Humanoids Workshop" class="w-36 h-24 object-contain rounded border border-gray-200 flex-shrink-0 bg-gray-50 p-1" onerror="this.onerror=null;this.style.display='none';" />
         <div>
           <p class="text-sm font-semibold text-gray-900 leading-snug">Learning Resilent Blind Locomotion Controller for Humanoid Robots using Deep Reinforcement Learning</p>
           <p class="text-xs text-gray-600 mt-1">Seunghyun Lee, <strong>Dongkyu Lee</strong>, Byeongho Yu, I Made Aswin Nahrendra, and Hyun Myung</p>
@@ -255,7 +255,7 @@ import Layout from '../layouts/Layout.astro';
 
       <!-- LocoVLM -->
       <div class="flex gap-4 items-start">
-        <img src="https://arxiv.org/html/2602.10399/x1.png" alt="LocoVLM" class="w-36 h-24 object-cover rounded border border-gray-200 flex-shrink-0 bg-gray-50" onerror="this.onerror=null;this.src='';" />
+        <img src="https://arxiv.org/html/2602.10399/x1.png" alt="LocoVLM" class="w-36 h-24 object-contain rounded border border-gray-200 flex-shrink-0 bg-gray-50 p-1" onerror="this.onerror=null;this.src='';" />
         <div>
           <p class="text-sm font-semibold text-gray-900 leading-snug">LocoVLM: Grounding Vision and Language for Adapting Versatile Legged Locomotion Policies</p>
           <p class="text-xs text-gray-600 mt-1">I Made Aswin Nahrendra, Seunghyun Lee, <strong>Dongkyu Lee</strong>, and Hyun Myung</p>
@@ -307,28 +307,33 @@ import Layout from '../layouts/Layout.astro';
   <!-- Other Publications -->
   <section id="other-publications" class="mb-12">
     <h2 class="text-xl font-bold text-gray-900 mb-4 border-b border-gray-200 pb-2">Other Publications</h2>
-    <ul class="space-y-3 text-sm text-gray-700 list-disc list-inside">
-      <li>
-        <span class="font-medium text-gray-900">TRIP: Terrain Traversability Mapping with Risk-Aware Prediction for Enhanced Online Quadrupedal Robot Navigation</span><br>
-        <span class="ml-5 text-xs text-gray-600">Minho Oh, Byeongho Yu, I Made Aswin Nahrendra, Seoyeon Jang, Hyeonwoo Lee, <strong>Dongkyu Lee</strong>, et al. · arXiv, 2024 · <a href="https://arxiv.org/abs/2411.17134" class="text-blue-700 hover:underline">[Paper]</a></span>
-      </li>
-      <li>
-        <span class="font-medium text-gray-900">B-TMS: Bayesian Traversable Terrain Modeling and Segmentation Across 3D LiDAR Scans and Maps for Enhanced Off-Road Navigation</span><br>
-        <span class="ml-5 text-xs text-gray-600">Minho Oh, Gunhee Shin, Seoyeon Jang, Seungjae Lee, <strong>Dongkyu Lee</strong>, et al. · IEEE IV, 2024 · <a href="https://ieeexplore.ieee.org/abstract/document/10588810" class="text-blue-700 hover:underline">[Paper]</a></span>
-      </li>
-      <li>
-        <span class="font-medium text-gray-900">M-BRIC: Design of Mass-Driven Bi-Rotor with RL-Based Intelligent Controller</span><br>
-        <span class="ml-5 text-xs text-gray-600"><strong>Dongkyu Lee</strong>, EungChang Mason Lee, Duckyu Choi, Junho Choi, Christian Tirtawardhana, Hyun Myung · UR, 2022 · <a href="https://ieeexplore.ieee.org/abstract/document/9826246" class="text-blue-700 hover:underline">[Paper]</a></span>
-      </li>
-      <li>
-        <span class="font-medium text-gray-900">FARO-Tracker: Fast and Robust Target Tracking System for UAVs in Urban Environment</span><br>
-        <span class="ml-5 text-xs text-gray-600"><strong>Dongkyu Lee</strong>, EungChang Mason Lee, Hyungtae Lim, Seungwon Song, Hyun Myung · RiTA, 2022 · <a href="https://link.springer.com/chapter/10.1007/978-3-031-26889-2_20" class="text-blue-700 hover:underline">[Paper]</a></span>
-      </li>
-      <li>
-        <span class="font-medium text-gray-900">CEO-MLCPP: Control-Efficient and Obstacle-Aware Multi-Layer Coverage Path Planner for 3D Reconstruction with UAVs</span><br>
-        <span class="ml-5 text-xs text-gray-600">Eungchang Mason Lee, Sungwook Jung, Seungwon Song, Duckyu Choi, <strong>Dongkyu Lee</strong>, et al. · RiTA, 2022 · <a href="https://link.springer.com/chapter/10.1007/978-3-031-26889-2_3" class="text-blue-700 hover:underline">[Paper]</a></span>
-      </li>
-    </ul>
+    <div class="space-y-4">
+      <div>
+        <p class="text-sm font-medium text-gray-900 leading-snug">TRIP: Terrain Traversability Mapping with Risk-Aware Prediction for Enhanced Online Quadrupedal Robot Navigation</p>
+        <p class="text-xs text-gray-600 mt-1">Minho Oh, Byeongho Yu, I Made Aswin Nahrendra, Seoyeon Jang, Hyeonwoo Lee, <strong>Dongkyu Lee</strong>, Seungjae Lee, Yeeun Kim, Marsim Kevin Christiansen, Hyungtae Lim, and Hyun Myung</p>
+        <p class="text-xs text-gray-400 mt-0.5">arXiv, 2024 · <a href="https://arxiv.org/abs/2411.17134" class="text-blue-700 hover:underline">[Paper]</a></p>
+      </div>
+      <div>
+        <p class="text-sm font-medium text-gray-900 leading-snug">B-TMS: Bayesian Traversable Terrain Modeling and Segmentation Across 3D LiDAR Scans and Maps for Enhanced Off-Road Navigation</p>
+        <p class="text-xs text-gray-600 mt-1">Minho Oh, Gunhee Shin, Seoyeon Jang, Seungjae Lee, <strong>Dongkyu Lee</strong>, Wonho Song, Byeongho Yu, Hyungtae Lim, Jaeyoung Lee, and Hyun Myung</p>
+        <p class="text-xs text-gray-400 mt-0.5">IEEE Intelligent Vehicles Symposium (IV), 2024 · <a href="https://ieeexplore.ieee.org/abstract/document/10588810" class="text-blue-700 hover:underline">[Paper]</a></p>
+      </div>
+      <div>
+        <p class="text-sm font-medium text-gray-900 leading-snug">FARO-Tracker: Fast and Robust Target Tracking System for UAVs in Urban Environment</p>
+        <p class="text-xs text-gray-600 mt-1"><strong>Dongkyu Lee</strong>, EungChang Mason Lee, Hyungtae Lim, Seungwon Song, and Hyun Myung</p>
+        <p class="text-xs text-gray-400 mt-0.5">International Conference on Robot Intelligence Technology and Applications (RiTA), 2022 · <a href="https://link.springer.com/chapter/10.1007/978-3-031-26889-2_20" class="text-blue-700 hover:underline">[Paper]</a></p>
+      </div>
+      <div>
+        <p class="text-sm font-medium text-gray-900 leading-snug">CEO-MLCPP: Control-Efficient and Obstacle-Aware Multi-Layer Coverage Path Planner for 3D Reconstruction with UAVs</p>
+        <p class="text-xs text-gray-600 mt-1">Eungchang Mason Lee, Sungwook Jung, Seungwon Song, Duckyu Choi, <strong>Dongkyu Lee</strong>, Seunghyun Lee, Seoktae Kim, and Hyun Myung</p>
+        <p class="text-xs text-gray-400 mt-0.5">International Conference on Robot Intelligence Technology and Applications (RiTA), 2022 · <a href="https://link.springer.com/chapter/10.1007/978-3-031-26889-2_3" class="text-blue-700 hover:underline">[Paper]</a></p>
+      </div>
+      <div>
+        <p class="text-sm font-medium text-gray-900 leading-snug">M-BRIC: Design of Mass-Driven Bi-Rotor with RL-Based Intelligent Controller</p>
+        <p class="text-xs text-gray-600 mt-1"><strong>Dongkyu Lee</strong>, EungChang Mason Lee, Duckyu Choi, Junho Choi, Christian Tirtawardhana, and Hyun Myung</p>
+        <p class="text-xs text-gray-400 mt-0.5">International Conference on Ubiquitous Robots (UR), 2022 · <a href="https://ieeexplore.ieee.org/abstract/document/9826246" class="text-blue-700 hover:underline">[Paper]</a></p>
+      </div>
+    </div>
   </section>
 
   <!-- Academic Services -->
