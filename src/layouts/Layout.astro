@@ -36,11 +36,11 @@ const navItems = [
       a.link {
         text-decoration: underline;
         text-underline-offset: 3px;
-        text-decoration-color: rgba(26,58,107,0.35);
+        text-decoration-color: rgba(15,37,96,0.6);
         transition: text-decoration-color 0.2s;
       }
       a.link:hover {
-        text-decoration-color: rgba(26,58,107,0.9);
+        text-decoration-color: rgba(15,37,96,1);
       }
       a { text-decoration: none; }
       .hover-underline {
@@ -65,7 +65,7 @@ const navItems = [
     <!-- Navigation -->
     <header class="sticky top-0 z-50 bg-white border-b border-gray-200">
       <nav class="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="#about" class="text-lg font-semibold text-gray-900 hover:text-[#1a3a6b] transition-colors">
+        <a href="#about" class="text-lg font-semibold text-gray-900 hover:text-[#0f2560] transition-colors">
           Dongkyu Lee
         </a>
         <!-- Desktop nav links -->
@@ -74,7 +74,7 @@ const navItems = [
             <li>
               <a
                 href={item.href}
-                class="text-sm font-medium text-gray-600 transition-colors hover:text-[#1a3a6b]"
+                class="text-sm font-medium text-gray-600 transition-colors hover:text-[#0f2560]"
               >
                 {item.label}
               </a>
@@ -84,7 +84,7 @@ const navItems = [
         <!-- Hamburger button (mobile only) -->
         <button
           id="menu-toggle"
-          class="md:hidden flex items-center justify-center w-9 h-9 rounded text-gray-600 hover:text-[#1a3a6b] hover:bg-gray-100 transition-colors"
+          class="md:hidden flex items-center justify-center w-9 h-9 rounded text-gray-600 hover:text-[#0f2560] hover:bg-gray-100 transition-colors"
           aria-label="Toggle menu"
           aria-expanded="false"
         >
@@ -110,7 +110,7 @@ const navItems = [
           <li>
             <a
               href={item.href}
-              class="mobile-nav-link block py-2.5 px-3 text-sm font-medium text-gray-600 rounded hover:text-[#1a3a6b] hover:bg-gray-50 transition-colors"
+              class="mobile-nav-link block py-2.5 px-3 text-sm font-medium text-gray-600 rounded hover:text-[#0f2560] hover:bg-gray-50 transition-colors"
             >
               {item.label}
             </a>
