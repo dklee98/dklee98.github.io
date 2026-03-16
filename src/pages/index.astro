@@ -171,74 +171,101 @@ import Layout from '../layouts/Layout.astro';
   <section id="highlights" class="mb-12">
     <h2 class="text-xl font-bold text-gray-900 mb-4 border-b border-gray-200 pb-2">Research Highlights</h2>
     <div class="space-y-6">
+
+      <!-- DreamFlow -->
       <div class="flex gap-4 items-start">
-        <img src="/images/trg.png" alt="TRG-Planner" class="w-36 h-24 object-cover rounded border border-gray-200 flex-shrink-0 bg-gray-50" onerror="this.onerror=null;this.style.display='none';" />
+        <img src="/images/dreamflow.png" alt="DreamFlow" class="w-36 h-24 object-cover rounded border border-gray-200 flex-shrink-0 bg-gray-50" onerror="this.onerror=null;this.style.display='none';" />
         <div>
-          <p class="text-sm font-semibold text-gray-900 leading-snug">TRG-planner: Traversal Risk Graph-Based Path Planning in Unstructured Environments for Safe and Efficient Navigation</p>
-          <p class="text-xs text-gray-600 mt-1"><strong>Dongkyu Lee</strong>, I Made Aswin Nahrendra, Minho Oh, Byeongho Yu, and Hyun Myung</p>
-          <p class="text-xs mt-1"><span class="inline-block bg-blue-100 text-blue-700 rounded px-2 py-0.5 font-medium">IEEE RA-L 2025 · IROS 2025 Oral</span></p>
-          <div class="flex gap-3 mt-1.5">
-            <a href="https://arxiv.org/abs/2501.01806" class="text-xs text-blue-700 hover:underline">[Paper]</a>
-            <a href="https://trg-planner.github.io/" class="text-xs text-blue-700 hover:underline">[Project]</a>
+          <p class="text-sm font-semibold text-gray-900 leading-snug">DreamFlow: Local Navigation Beyond Observation via Conditional Flow Matching in the Latent Space</p>
+          <p class="text-xs text-gray-600 mt-1">Jiwon Park*, <strong>Dongkyu Lee*</strong>, I Made Aswin Nahrendra, Jaeyoung Lim, and Hyun Myung</p>
+          <div class="flex gap-2 flex-wrap mt-1">
+            <span class="inline-block bg-blue-100 text-blue-700 rounded px-2 py-0.5 text-xs font-medium">IEEE ICRA 2026</span>
+          </div>
+          <div class="flex gap-3 mt-1.5 items-center">
+            <a href="https://dreamflow-icra.github.io" class="text-xs text-blue-700 hover:underline">[Project]</a>
+            <span class="text-xs text-gray-400">(* equal contribution)</span>
           </div>
         </div>
       </div>
-      <div class="flex gap-4 items-start">
-        <img src="/images/dreamflex.png" alt="DreamFLEX" class="w-36 h-24 object-cover rounded border border-gray-200 flex-shrink-0 bg-gray-50" onerror="this.onerror=null;this.style.display='none';" />
-        <div>
-          <p class="text-sm font-semibold text-gray-900 leading-snug">DreamFLEX: Learning Fault-Aware Quadrupedal Locomotion Controller for Anomaly Situation in Rough Terrains</p>
-          <p class="text-xs text-gray-600 mt-1">Seunghyun Lee, I Made Aswin Nahrendra, <strong>Dongkyu Lee</strong>, Byeongho Yu, Minho Oh, and Hyun Myung</p>
-          <p class="text-xs mt-1"><span class="inline-block bg-blue-100 text-blue-700 rounded px-2 py-0.5 font-medium">IEEE ICRA 2025</span></p>
-          <div class="flex gap-3 mt-1.5">
-            <a href="https://dreamflex.github.io" class="text-xs text-blue-700 hover:underline">[Project]</a>
-          </div>
-        </div>
-      </div>
+
+      <!-- DreamWaQ++ -->
       <div class="flex gap-4 items-start">
         <img src="/images/dreamwaqpp.png" alt="DreamWaQ++" class="w-36 h-24 object-cover rounded border border-gray-200 flex-shrink-0 bg-gray-50" onerror="this.onerror=null;this.style.display='none';" />
         <div>
           <p class="text-sm font-semibold text-gray-900 leading-snug">DreamWaQ++: Obstacle-aware Quadrupedal Locomotion with Resilient Multi-modal Reinforcement Learning</p>
           <p class="text-xs text-gray-600 mt-1">I Made Aswin Nahrendra, Byeongho Yu, Minho Oh, <strong>Dongkyu Lee</strong>, Seunghyun Lee, Hyeonwoo Lee, Hyungtae Lim, and Hyun Myung</p>
-          <p class="text-xs mt-1"><span class="inline-block bg-blue-100 text-blue-700 rounded px-2 py-0.5 font-medium">IEEE T-RO 2025</span></p>
+          <div class="flex gap-2 flex-wrap mt-1">
+            <span class="inline-block bg-blue-100 text-blue-700 rounded px-2 py-0.5 text-xs font-medium">IEEE T-RO 2025</span>
+          </div>
           <div class="flex gap-3 mt-1.5">
             <a href="https://arxiv.org/pdf/2409.19709" class="text-xs text-blue-700 hover:underline">[Paper]</a>
             <a href="https://dreamwaqpp.github.io" class="text-xs text-blue-700 hover:underline">[Project]</a>
           </div>
         </div>
       </div>
+
+      <!-- TRG-planner -->
       <div class="flex gap-4 items-start">
-        <img src="/images/dreamflow.png" alt="DreamFlow" class="w-36 h-24 object-cover rounded border border-gray-200 flex-shrink-0 bg-gray-50" onerror="this.onerror=null;this.style.display='none';" />
+        <img src="/images/trg.png" alt="TRG-Planner" class="w-36 h-24 object-contain rounded border border-gray-200 flex-shrink-0 bg-gray-50 p-1" onerror="this.onerror=null;this.style.display='none';" />
         <div>
-          <p class="text-sm font-semibold text-gray-900 leading-snug">DreamFlow: Local Navigation Beyond Observation via Conditional Flow Matching in the Latent Space</p>
-          <p class="text-xs text-gray-600 mt-1">Jiwon Park, <strong>Dongkyu Lee</strong>, I Made Aswin Nahrendra, Jaeyoung Lim, and Hyun Myung</p>
-          <p class="text-xs mt-1"><span class="inline-block bg-blue-100 text-blue-700 rounded px-2 py-0.5 font-medium">IEEE ICRA 2026</span></p>
+          <p class="text-sm font-semibold text-gray-900 leading-snug">TRG-planner: Traversal Risk Graph-Based Path Planning in Unstructured Environments for Safe and Efficient Navigation</p>
+          <p class="text-xs text-gray-600 mt-1"><strong>Dongkyu Lee</strong>, I Made Aswin Nahrendra, Minho Oh, Byeongho Yu, and Hyun Myung</p>
+          <div class="flex gap-2 flex-wrap mt-1">
+            <span class="inline-block bg-blue-100 text-blue-700 rounded px-2 py-0.5 text-xs font-medium">IEEE RA-L 2025</span>
+            <span class="inline-block bg-blue-100 text-blue-700 rounded px-2 py-0.5 text-xs font-medium">IROS 2025 Oral</span>
+          </div>
           <div class="flex gap-3 mt-1.5">
-            <a href="https://dreamflow-icra.github.io" class="text-xs text-blue-700 hover:underline">[Project]</a>
+            <a href="https://arxiv.org/abs/2501.01806" class="text-xs text-blue-700 hover:underline">[Paper]</a>
+            <a href="https://trg-planner.github.io/" class="text-xs text-blue-700 hover:underline">[Project]</a>
           </div>
         </div>
       </div>
+
+      <!-- Humanoids Workshop -->
       <div class="flex gap-4 items-start">
         <img src="/images/humanoids.png" alt="Humanoids Workshop" class="w-36 h-24 object-cover rounded border border-gray-200 flex-shrink-0 bg-gray-50" onerror="this.onerror=null;this.style.display='none';" />
         <div>
           <p class="text-sm font-semibold text-gray-900 leading-snug">Learning Resilent Blind Locomotion Controller for Humanoid Robots using Deep Reinforcement Learning</p>
           <p class="text-xs text-gray-600 mt-1">Seunghyun Lee, <strong>Dongkyu Lee</strong>, Byeongho Yu, I Made Aswin Nahrendra, and Hyun Myung</p>
-          <p class="text-xs mt-1"><span class="inline-block bg-blue-100 text-blue-700 rounded px-2 py-0.5 font-medium">IEEE Humanoids Workshop 2025</span></p>
+          <div class="flex gap-2 flex-wrap mt-1">
+            <span class="inline-block bg-blue-100 text-blue-700 rounded px-2 py-0.5 text-xs font-medium">IEEE Humanoids Workshop 2025</span>
+          </div>
           <div class="flex gap-3 mt-1.5">
             <a href="https://drive.google.com/file/d/1geRp5MYSBh2MD_HzsotdCSv8JW7yzz3O/view" class="text-xs text-blue-700 hover:underline">[Paper]</a>
           </div>
         </div>
       </div>
+
+      <!-- DreamFLEX -->
+      <div class="flex gap-4 items-start">
+        <img src="/images/dreamflex.png" alt="DreamFLEX" class="w-36 h-24 object-cover rounded border border-gray-200 flex-shrink-0 bg-gray-50" onerror="this.onerror=null;this.style.display='none';" />
+        <div>
+          <p class="text-sm font-semibold text-gray-900 leading-snug">DreamFLEX: Learning Fault-Aware Quadrupedal Locomotion Controller for Anomaly Situation in Rough Terrains</p>
+          <p class="text-xs text-gray-600 mt-1">Seunghyun Lee, I Made Aswin Nahrendra, <strong>Dongkyu Lee</strong>, Byeongho Yu, Minho Oh, and Hyun Myung</p>
+          <div class="flex gap-2 flex-wrap mt-1">
+            <span class="inline-block bg-blue-100 text-blue-700 rounded px-2 py-0.5 text-xs font-medium">IEEE ICRA 2025</span>
+          </div>
+          <div class="flex gap-3 mt-1.5">
+            <a href="https://dreamflex.github.io" class="text-xs text-blue-700 hover:underline">[Project]</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- LocoVLM -->
       <div class="flex gap-4 items-start">
         <div class="w-36 h-24 rounded border border-gray-200 flex-shrink-0 bg-gray-50 flex items-center justify-center text-xs text-gray-400 font-medium">LocoVLM</div>
         <div>
           <p class="text-sm font-semibold text-gray-900 leading-snug">Versatile Legged Locomotion Adaptation through Vision-Language Grounding</p>
           <p class="text-xs text-gray-600 mt-1">I Made Aswin Nahrendra, Seunghyun Lee, <strong>Dongkyu Lee</strong>, and Hyun Myung</p>
-          <p class="text-xs mt-1"><span class="inline-block bg-blue-100 text-blue-700 rounded px-2 py-0.5 font-medium">SafeVLMs Workshop @ ICRA 2025</span></p>
+          <div class="flex gap-2 flex-wrap mt-1">
+            <span class="inline-block bg-blue-100 text-blue-700 rounded px-2 py-0.5 text-xs font-medium">SafeVLMs Workshop @ ICRA 2025</span>
+          </div>
           <div class="flex gap-3 mt-1.5">
             <a href="https://locovlm.github.io" class="text-xs text-blue-700 hover:underline">[Project]</a>
           </div>
         </div>
       </div>
+
     </div>
   </section>
 
