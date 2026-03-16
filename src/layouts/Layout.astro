@@ -30,13 +30,30 @@ const navItems = [
     <style>
       html { scroll-behavior: smooth; }
       section[id] { scroll-margin-top: 72px; }
+      a { text-decoration: none; }
+      .hover-underline {
+        position: relative;
+      }
+      .hover-underline::after {
+        content: '';
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background: currentColor;
+        transition: width 0.2s ease;
+      }
+      .hover-underline:hover::after {
+        width: 100%;
+      }
     </style>
   </head>
   <body class="bg-white text-gray-900 font-sans antialiased">
     <!-- Navigation -->
     <header class="sticky top-0 z-50 bg-white border-b border-gray-200">
       <nav class="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="#about" class="text-lg font-semibold text-gray-900 hover:text-blue-700 transition-colors">
+        <a href="#about" class="text-lg font-semibold text-gray-900 hover:text-[#1a3a6b] transition-colors">
           Dongkyu Lee
         </a>
         <!-- Desktop nav links -->
@@ -45,7 +62,7 @@ const navItems = [
             <li>
               <a
                 href={item.href}
-                class="text-sm font-medium text-gray-600 transition-colors hover:text-blue-700"
+                class="text-sm font-medium text-gray-600 transition-colors hover:text-[#1a3a6b]"
               >
                 {item.label}
               </a>
@@ -55,7 +72,7 @@ const navItems = [
         <!-- Hamburger button (mobile only) -->
         <button
           id="menu-toggle"
-          class="md:hidden flex items-center justify-center w-9 h-9 rounded text-gray-600 hover:text-blue-700 hover:bg-gray-100 transition-colors"
+          class="md:hidden flex items-center justify-center w-9 h-9 rounded text-gray-600 hover:text-[#1a3a6b] hover:bg-gray-100 transition-colors"
           aria-label="Toggle menu"
           aria-expanded="false"
         >
@@ -81,7 +98,7 @@ const navItems = [
           <li>
             <a
               href={item.href}
-              class="mobile-nav-link block py-2.5 px-3 text-sm font-medium text-gray-600 rounded hover:text-blue-700 hover:bg-gray-50 transition-colors"
+              class="mobile-nav-link block py-2.5 px-3 text-sm font-medium text-gray-600 rounded hover:text-[#1a3a6b] hover:bg-gray-50 transition-colors"
             >
               {item.label}
             </a>
@@ -97,8 +114,14 @@ const navItems = [
 
     <!-- Footer -->
     <footer class="border-t border-gray-200 mt-16">
-      <div class="max-w-4xl mx-auto px-6 py-6 text-center text-sm text-gray-500">
-        <p>© {new Date().getFullYear()} Dongkyu Lee. Built with Astro & Tailwind CSS.</p>
+      <div class="max-w-4xl mx-auto px-6 py-8">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+          <p class="text-sm font-medium text-gray-700">Dongkyu Lee</p>
+          <p class="text-xs text-gray-400">Built with Astro & Tailwind CSS · © {new Date().getFullYear()}</p>
+          <div class="flex gap-4 text-xs text-gray-500">
+            <a href="#about" class="hover:text-gray-800 transition-colors">Back to top ↑</a>
+          </div>
+        </div>
       </div>
     </footer>
   <script>
