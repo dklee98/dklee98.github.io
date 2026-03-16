@@ -29,7 +29,7 @@ const navItems = [
     <title>{title} | Dongkyu Lee</title>
     <style>
       html { scroll-behavior: smooth; }
-      section[id] { scroll-margin-top: 70px; }
+      section[id] { scroll-margin-top: 72px; }
     </style>
   </head>
   <body class="bg-white text-gray-900 font-sans antialiased">
@@ -65,5 +65,19 @@ const navItems = [
         <p>© {new Date().getFullYear()} Dongkyu Lee. Built with Astro & Tailwind CSS.</p>
       </div>
     </footer>
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href === '#') return;
+        const target = document.querySelector(href);
+        if (!target) return;
+        e.preventDefault();
+        const navHeight = document.querySelector('header')?.offsetHeight ?? 72;
+        const top = target.getBoundingClientRect().top + window.scrollY - navHeight - 8;
+        window.scrollTo({ top, behavior: 'smooth' });
+      });
+    });
+  </script>
   </body>
 </html>
