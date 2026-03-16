@@ -146,7 +146,7 @@ content:
 
           **Dongkyu Lee**, I Made Aswin Nahrendra, Minho Oh, Byeongho Yu, and Hyun Myung
 
-          IEEE Robotics and Automation Letters **(RA-L), 2025**
+          IEEE Robotics and Automation Letters **(RA-L), 2025** · IEEE/RSJ International Conference on Intelligent Robots and Systems **(IROS), 2025 [Oral]**
 
           <a href="https://arxiv.org/abs/2501.01806">Paper</a>  <a href="https://trg-planner.github.io/">Project</a>
   
@@ -175,9 +175,35 @@ content:
 
                     I Made Aswin Nahrendra, Byeongho Yu, Minho Oh, **Dongkyu Lee**, Seunghyun Lee, Hyeonwoo Lee, Hyungtae Lim, and Hyun Myung
 
-                    **under review**
+                    IEEE Transactions on Robotics **(T-RO), 2025**
 
                     <a href="https://arxiv.org/pdf/2409.19709">Paper</a>  <a href="https://dreamwaqpp.github.io">Project</a>
+
+      - layout: left
+        title: |
+            <img src="images/trg.png" width="240px" margin-bottom="300%"> <br>
+
+        description: |
+                    ***DreamFlow: Local Navigation Beyond Observation via Conditional Flow Matching in the Latent Space***
+
+                    Jiwon Park, **Dongkyu Lee**, I Made Aswin Nahrendra, Jaeyoung Lim, and Hyun Myung
+
+                    IEEE International Conference on Robotics and Automation **(ICRA), 2026**
+
+                    <a href="https://dreamflow-icra.github.io">Project</a>
+
+      - layout: left
+        title: |
+            <img src="images/dreamflex.png" width="240px" margin-bottom="300%"> <br>
+
+        description: |
+                    ***Learning Resilent Blind Locomotion Controller for Humanoid Robots using Deep Reinforcement Learning***
+
+                    Seunghyun Lee, **Dongkyu Lee**, Byeongho Yu, I Made Aswin Nahrendra, and Hyun Myung
+
+                    IEEE Humanoids Workshop **(2025)**
+
+                    <a href="https://drive.google.com/file/d/1geRp5MYSBh2MD_HzsotdCSv8JW7yzz3O/view">Paper</a>
       
       - layout: left
         title: |
